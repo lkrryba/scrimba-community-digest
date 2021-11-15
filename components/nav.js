@@ -38,7 +38,7 @@ class Nav extends HTMLElement {
         } 
         
         <a href="https://scrimba.ck.page/scrimba-community-digest" rel="noopener" target="_blank">Sign up</a>
-        <a href="../prev-editions.html">Previous editions</a>
+        <a href="../prev-editions/prev-editions.html">Previous editions</a>
       </div>
     </nav>    
     `
