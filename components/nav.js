@@ -28,17 +28,16 @@ class Nav extends HTMLElement {
         <div class="nav-icon-line-3"></div>
     </div>
     <nav>
-      <a class="nav-scrimba" href="https://scrimba.com/" rel="noopener" target="_blank"><img class="nav-logo" src="../../../imgs/scrimba-black.svg" alt="scrimba-logo"></a>
+      <a class="nav-scrimba" href="https://scrimba.com/" rel="noopener" target="_blank"><img class="nav-logo" src="imgs/scrimba-black.svg" alt="scrimba-logo"></a>
+      
       <div class="nav-other-links">
         ${
           lastSegment.length !== 0
             ? `<a href="/" rel="noopener" target="_blank">Home</a>`
             : ``
         } 
-        <a target="_blank" rel="noopener" href="https://scrimba.com/learn/weeklychallenge/the-weekly-web-dev-challenge-dark-light-theme-latest-challenge-code-to-win-co24f4cd08039faab7eff7a98">Current Challenge</a>  
-        <a href="/hall-of-fame.html" rel="noopener" target="_blank">Hall of Fame</a>
-        <a href="/#prev_challenges">Previous Challenges</a>
-        <a href="/faq.html" rel="noopener" target="_blank">FAQ</a>
+        
+        <a href="../prev-editions.html">Previous Editions</a>
       </div>
     </nav>    
     `
