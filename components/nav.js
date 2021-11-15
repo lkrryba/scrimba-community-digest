@@ -33,11 +33,12 @@ class Nav extends HTMLElement {
       <div class="nav-other-links">
         ${
           lastSegment.length !== 0
-            ? `<a href="/" rel="noopener" target="_blank">Home</a>`
+            ? `<a href="/">Home</a>`
             : ``
         } 
         
-        <a href="../prev-editions.html">Previous Editions</a>
+        <a href="https://scrimba.ck.page/scrimba-community-digest" rel="noopener" target="_blank">Sign up</a>
+        <a href="../prev-editions.html">Previous editions</a>
       </div>
     </nav>    
     `
