@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css"/>
     <title>The Scrimba Community Digest</title>
     <style>
       img {
@@ -89,6 +90,10 @@
   </head>
 
   <body>
+    <header>
+       <nav-component><!-- imported from components/nav.js --></nav-component>
+    </header>
+
     <div class="inner-container">
       <section class="first-section">
         <svg
@@ -545,14 +550,13 @@
           Have a lovely weekend everyone 💃, happy coding 💻 and happy resting
           🌴
         </p>
-        <p style="font-size: 10px !important; color: red !important">
-          If you no longer wish to receive the Scrimba Community Digest, please
-          <a
-            href="https://github.com/scrimba/community/blob/master/THANKS.md?NoMoreDigest=true"
-            >click here</a
-          >. To unsubscribe from all Scrimba emails, use the link below.
-        </p>
       </section>
     </div>
+
+    <!-- <footer-component> -->
+      <!-- imported from components/footer.js -->
+    <!-- </footer-component>   -->
+    <script type="module" src="components/nav.js" type="text/javascript" defer></script>
+    <script type="module" src="components/footer.js" type="text/javascript" defer></script>
   </body>
 </html>
