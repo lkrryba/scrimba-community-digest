@@ -43,6 +43,9 @@ img {
   }
 
   .all-rounded-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-radius: 10px;
     min-height: 70vh;
   }
@@ -102,11 +105,20 @@ img {
     
     .prev-editions-li a {
       margin: 0 0.5em 1em 0;
-      background-color: bisque;
+      background-color: #fffad1;
       border-radius: 5px;
       padding: 1em 2em;
       text-decoration: none;
       display: block;
+      text-transform: uppercase;
+      font-weight: bold;
+      box-sizing: border-box;
+  }
+
+  .prev-editions-li a:hover,
+  .prev-editions-li a:focus {
+    outline: 2px solid black;
+    text-decoration: underline;
   }
 
 
