@@ -78,16 +78,30 @@ img {
   }
 
   .prev-editions-ul {
-      max-width: 40%;
+      max-width: 60%;
+      max-height: 50vh;
       margin: 0 auto;
-  }
+      overflow-y: scroll;
+    }
+    
+    .prev-editions-ul::-webkit-scrollbar {
+      width: 10px;
+    }
+    
+    .prev-editions-ul::-webkit-scrollbar-track {
+      background: #fffad1; 
+    }
+    
+    .prev-editions-ul::-webkit-scrollbar-thumb {
+      background: #c7b9ff; 
+    }
 
   .prev-editions-li {
       list-style-type: none;
     }
     
     .prev-editions-li a {
-      margin-bottom: 1.25em;
+      margin: 0 0.5em 1em 0;
       background-color: bisque;
       border-radius: 5px;
       padding: 1em 2em;
@@ -215,3 +229,8 @@ img {
   
   /* Navbar End */
   
+.date {
+  text-align: center;
+  font-weight: bold;
+}
+
