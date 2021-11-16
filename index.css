@@ -84,6 +84,15 @@ img {
 
   .prev-editions-li {
       list-style-type: none;
+    }
+    
+    .prev-editions-li a {
+      margin-bottom: 1.25em;
+      background-color: bisque;
+      border-radius: 5px;
+      padding: 1em 2em;
+      text-decoration: none;
+      display: block;
   }
 
 
