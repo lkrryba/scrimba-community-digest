@@ -15,13 +15,13 @@ img {
 
   .inner-container,
   .header-img,
-  .prev-editions-main  {
+  .all-rounded-main {
     width: 100%;
     max-width: 600px;
   }
 
   .inner-container,
-  .prev-editions-main {
+  .all-rounded-main {
     margin: 0 auto;
     border-radius: 10px;
     text-align: center;
@@ -42,7 +42,7 @@ img {
     border-radius: 10px 10px 0 0;
   }
 
-  .prev-editions-main {
+  .all-rounded-main {
     border-radius: 10px;
     min-height: 70vh;
   }
