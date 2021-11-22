@@ -82,6 +82,7 @@ img {
   }
 
   .prev-editions-ul {
+      padding: 0.125em;
       max-width: 60%;
       max-height: 50vh;
       margin: 0 auto;
